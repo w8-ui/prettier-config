@@ -19,9 +19,9 @@
   },
   "homepage": "https://github.com/w8-ui/prettier-config#readme",
   "scripts": {
-    "prepare": "husky",
     "lint": "pnpm prettier --check",
-    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'"
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",
