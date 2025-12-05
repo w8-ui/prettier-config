@@ -2,7 +2,8 @@
   "name": "@w8-ui/prettier-config",
   "version": "1.0.0",
   "description": "W8 UI Prettier Config",
-  "main": "index.ts",
+  "packageManager": "pnpm@8.15.0",
+  "main": "index.js",
   "keywords": [
     "prettier",
     "config"
@@ -19,8 +20,8 @@
   "homepage": "https://github.com/w8-ui/prettier-config#readme",
   "scripts": {
     "prepare": "husky",
-    "lint": "prettier --check",
-    "prettier": "prettier '**/*.{js,ts,md,yaml,yml,json}'"
+    "lint": "pnpm prettier --check",
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'"
   },
   "devDependencies": {
     "@commitlint/cli": "^20.2.0",

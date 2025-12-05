@@ -1,0 +1,15 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: w8-ui/release-action@v1
+        with:
+          github-token: ${{ secrets.W8UI_BOT_GITHUB_TOKEN }}
+          npm-token: ${{ secrets.W8UI_BOT_NPM_TOKEN }}
+          node-version: 22
