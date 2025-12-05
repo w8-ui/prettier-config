@@ -1,0 +1,40 @@
+{
+  "name": "@w8-ui/prettier-config",
+  "version": "1.0.0",
+  "description": "W8 UI Prettier Config",
+  "main": "index.ts",
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "author": "Vladimir Pakhmutov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w8-ui/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/w8-ui/prettier-config/issues"
+  },
+  "homepage": "https://github.com/w8-ui/prettier-config#readme",
+  "scripts": {
+    "prepare": "husky",
+    "lint": "prettier --check",
+    "prettier": "prettier '**/*.{js,ts,md,yaml,yml,json}'"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "husky": "^9.1.7",
+    "nano-staged": "^0.9.0",
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "prettier": "*"
+  },
+  "nano-staged": {
+    "*.{js,ts,md,yaml,yml,json}": [
+      "prettier --write"
+    ]
+  }
+}
