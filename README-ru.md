@@ -1,15 +1,15 @@
-# @w8-ui/prettier-config
+# w8-prettier-config
 
-## Установка ??
+## Установка
 
 ```bash
-npm install -D @w8-ui/prettier-config prettier
+npm install -D w8-prettier-config prettier
 ```
 
-## Использование ??
+## Использование
 
 Добавьте файл `.prettierrc.js` в корень проекта с следующим содержимым:
 
 ```js
-module.exports = require('@w8-ui/prettier-config');
+module.exports = require('w8-prettier-config');
 ```

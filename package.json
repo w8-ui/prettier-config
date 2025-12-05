@@ -1,5 +1,5 @@
 {
-  "name": "@w8-ui/prettier-config",
+  "name": "w8-prettier-config",
   "version": "1.0.1",
   "description": "W8 UI Prettier Config",
   "packageManager": "pnpm@8.15.0",

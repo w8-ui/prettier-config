@@ -2,7 +2,7 @@
 
 ### Features
 
-- Initial release of @w8-ui/prettier-config
+- Initial release of w8-prettier-config
 - Prettier configuration for W8 UI projects
 
 ### Dependencies
