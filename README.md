@@ -1,9 +1,8 @@
 # @w8-ui/prettier-config
 
-## How to install ??
+## Installation ??
 
 ```bash
-# or pnpm or yarn
 npm install -D @w8-ui/prettier-config prettier
 ```
 
