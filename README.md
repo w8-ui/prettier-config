@@ -1,4 +1,4 @@
-# w8-prettier-config
+# @w8-ui/prettier-config
 
 ## Installation
 
